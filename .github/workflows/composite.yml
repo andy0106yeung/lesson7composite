@@ -12,7 +12,7 @@ jobs:
       - uses: ./
         id: compositeAction
         with:
-          number1: 4
-          number2: 3
+          number1: 5
+          number2: 7
        - run: echo ${{ steps.compositeAction.outputs.result }}
     
